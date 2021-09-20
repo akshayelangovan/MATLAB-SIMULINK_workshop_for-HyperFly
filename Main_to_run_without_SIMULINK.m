@@ -19,7 +19,7 @@ for i = 1:length(x)
     hold on
     h2 = plot([x(i),x(i) + P.l*sin(theta(i))],[0,P.l*cos(theta(i))],'k-','LineWidth',2);
     hold on
-    pause(1/30)
+    pause(1/P.framespersec)
     hold on
     if (i~=(length(x)-1))
         delete(h1)
