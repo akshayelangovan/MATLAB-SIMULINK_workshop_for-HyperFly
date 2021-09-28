@@ -4,5 +4,5 @@ Initially made for a workshop to benefit Hyperloop+FlyUC members
 
 Code was written in MATLAB2013b; would work for all versions above 2013b without modification (hopefully)
 
-Description of files:
+If you are running pendulum_animation.mdl, make sure you run param before
 

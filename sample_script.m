@@ -1,23 +1,23 @@
 % sample script
 
-clc
-clear
+clc % clear the command window
+clear % clear the workspace
 
-A = 6;
+A = 10;
 disp('If statement')
-if (mod(A,2)==0)
+if (mod(A,2)==0) % iseven(A)
     disp('A is even')
 else
     disp('A is odd')
 end
 
 disp('For loop')
-for i = 1:10
+for i = 1:0.5:10
     disp(i)
 end
 
 disp('While loop')
-while i<12
+while i<=12
     disp(i)
     i=i+1;
 end
